@@ -1,0 +1,143 @@
+﻿body 
+{
+    font-family: Arial, Sans-Serif;
+    /*margin:0 auto;*/
+    /*max-width:900px;*/
+}
+header
+{
+    display:block;
+    background-color:white;
+    color:White;
+    text-align:center;    
+}
+nav
+{
+    width:15%;
+    float:left;
+    border: solid 1px lightgray;
+    background-color: lightgrey;
+    height: 590px;
+
+}
+nav a:link, nav a:visited
+{
+    display:block;
+    padding:10px;
+    text-decoration:none;
+    margin:5px;    
+}
+nav a:hover
+{
+    color:White;
+    background-color:grey;    
+}
+section
+{
+    display:block;
+    width:60%;
+    float:left;    
+}
+article p
+{
+    margin:10px;    
+}
+aside
+{
+    margin: auto;
+    float:left;
+    height: 100%;
+    width:25%;
+    border: solid 1px lightgray;
+
+}
+h5 {
+    text-align: center;
+}
+footer
+{
+    clear:both;    
+    color:white;
+    background-color:lightskyblue;
+  
+    padding:20px;
+}
+div #tab1,  #tab2,  #tab3 {
+    height: 510px;
+}
+a#txt1 , #txt2, #txt2, #txt3 {
+    color: black;
+}
+ div#chat {
+     background-color: lightcyan;
+     font-size: 14px;
+     height: 250px;
+     padding-top: 30px;
+  
+ }
+ .unique {
+     text-align: right;
+ }
+ #button1 {
+    float: right;
+    color: white;
+    text-decoration: none;
+}
+#tab2, #tab3 {
+    display: none;
+}
+.tab {
+    padding: 0 10px;
+} 
+.tabs_menu {
+    display: table-row;
+  
+} 
+.tabs_menu li {
+    display: table-cell;
+    width: auto;
+}
+.tabs_menu li a {
+    display: table-cell;
+    width: 2000px;
+    text-align: center;
+    text-decoration: none;
+    background: #f8f8f8;
+    color: #292929;
+    border-bottom: 3px solid lightskyblue;
+    border-left: 1px solid #ccc;
+    padding: 10px 0;
+}
+.tabs_menu li:first-child a {
+    border-left: 0;
+} 
+.tabs_menu .active {
+    background: lightskyblue;
+    color: #fff;
+}
+#box, #box1, #box2 {
+    color: lightgrey;
+    list-style-type: none;
+}
+#list,#list1,#list2 {
+    color: lightgrey;
+    text-decoration: none
+}
+i {
+    color:lightskyblue
+}
+#icon {
+    padding-top: 20px
+}
+#tab1 p {
+    padding-top: 20px
+}
+.tabs_menu li> a {
+    -ms-border-top-left-radius: 10px;
+    border-top-left-radius: 10px;
+    -ms-border-top-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+div .tab#tab3 {
+    padding-top: 20px;
+}
